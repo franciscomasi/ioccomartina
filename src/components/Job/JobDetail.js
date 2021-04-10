@@ -66,10 +66,6 @@ function JobDetail() {
               {iconByCategory(job.category)}
             </div>
             <div className="job-detail__additional-info">
-              <span className="job-detail__info-name">Consultora:</span>
-              <span className="job-detail__info-value">{job.consultant}</span>
-            </div>
-            <div className="job-detail__additional-info">
               <span className="job-detail__info-name">Posición:</span>
               <span className="job-detail__info-value">{job.category}</span>
             </div>

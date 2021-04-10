@@ -49,11 +49,6 @@ function JobCard({ job }) {
             &nbsp;
             <span className="job-card__info-text">{contract}</span>
           </div>
-          <div className="job-card__info-container">
-            <FontAwesomeIcon icon="bars" />
-            &nbsp;
-            <span className="job-card__info-text">{consultant}</span>
-          </div>
         </div>
       </div>
     </Link>
