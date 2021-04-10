@@ -7,15 +7,9 @@
     @extend %wrapper;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding-top: 3rem;
     padding-bottom: 3rem;
-}
-
-.about-me__text {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 .about-me__title {
@@ -29,17 +23,38 @@
     }
 }
 
+.about-me__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .about-me__description {
     @include font-size(16px);
 
+    padding: 1.5rem 0;
     color: $white;
+    line-height: 2rem;
     text-align: left;
 
     @media(min-width: $screen-md) {
         @include font-size(18px);
+
+        flex: 1;
     }
 }
 
-.about-me__image {
-    flex: 1;
+.about-me__item {
+    @include font-size(18px);
+
+    margin: 0 0 1rem;
+    color: $primary;
+
+    @media(min-width: $screen-md) {
+        @include font-size(20px);
+    }
+}
+
+.about-me__list {
+    margin-top: 1rem;
 }

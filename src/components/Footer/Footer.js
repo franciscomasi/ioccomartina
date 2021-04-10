@@ -24,7 +24,7 @@ export default function Footer() {
               href={`mailto:${CONTACT.RECRUITER_EMAIL}`}
               className="footer__resume-link footer__info"
             >
-              <b>Búsquedas:</b>
+              <b>Enviá tu CV:</b>
               &nbsp;
               {CONTACT.RECRUITER_EMAIL}
             </a>
@@ -32,7 +32,7 @@ export default function Footer() {
               href={`mailto:${CONTACT.EMAIL}`}
               className="footer__resume-link footer__info"
             >
-              <b>Asesoramiento:</b>
+              <b>Consultas:</b>
               &nbsp;
               {CONTACT.EMAIL}
             </a>

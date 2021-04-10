@@ -4,13 +4,27 @@ export default function Advice() {
   return (
     <div className="advice" id="section-asesoramiento">
       <div className="advice__wrapper">
-        <div className="advice__image">
-        </div>
-        <div className="advice__text">
-          <h4 className="advice__title">Asesoramientos</h4>
-          <p className="advice__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra sem at magna efficitur, non vestibulum purus euismod. Nulla nisl quam, ornare ut porta quis, ornare a quam. Aliquam facilisis vel massa id fringilla. Phasellus id metus egestas, vestibulum felis dapibus, fringilla libero. Cras velit erat, posuere vitae purus vel, vulputate euismod odio. Aliquam erat volutpat. Donec sit amet massa id ex sodales cursus ac id nulla. Morbi laoreet feugiat lacus, volutpat consectetur ex convallis ac. Nunc varius ante in ante aliquam, at consequat urna hendrerit. Fusce ac facilisis massa. Curabitur rhoncus, libero sit amet ullamcorper maximus, ipsum turpis vehicula mauris, ut pellentesque nisi turpis et ipsum. Nullam vitae convallis leo, vitae tempus nisi. Donec nec nulla dictum massa dictum auctor. Nullam facilisis sodales mauris, ut efficitur augue tincidunt sed.
-          </p>
+        <h4 className="advice__title">Servicios</h4>
+        <div className="advice__content">
+          <div className="advice__description">
+            <h5 className="advice__item">Atención Psicológica</h5>
+            <p className="advice__item-description">
+              Modalidad presencial o virtual
+              Brindo tratamiento psicológico con orientación psicoanalítica a adolescentes y adultos.
+            </p>
+          </div>
+          <div className="advice__description">
+            <h5 className="advice__item">Selección y Reclutamiento</h5>
+            <p className="advice__item-description">
+              Realizo búsquedas de perfiles IT y generalistas para empresas y consultoras. Headhunting y selección de candidatos. Redacción de informes.
+            </p>
+          </div>
+          <div className="advice__description">
+            <h5 className="advice__item">Asesoría Laboral</h5>
+            <p className="advice__item-description">
+              Armados de CV (desde cero). Consejos y asesoramiento para búsquedas y entrevistas laborales. Simulación de entrevistas para fortalecer la confianza y seguridad.
+            </p>
+          </div>
         </div>
       </div>
     </div>

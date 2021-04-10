@@ -42,7 +42,9 @@
     text-transform: uppercase;
 
     &:hover {
-        border-bottom: 2px solid $white;
+        margin-top: 2px;
+        color: $primary;
+        border-bottom: 2px solid $primary;
     }
 }
 

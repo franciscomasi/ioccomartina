@@ -48,6 +48,7 @@
     width: 100%;
     height: 100%;
     background: $text-mask;
+    align-items: flex-end;
 }
 
 .main-slider__text-container {
@@ -68,16 +69,35 @@
     text-transform: uppercase;
 
     span {
-        @include font-size(60px);
+        @include font-size(40px);
+    }
+
+    @media(min-width: $screen-md) {
+        span {
+            @include font-size(60px);
+        }
     }
 }
 
 .main-slider__subtitle {
     span {
-        @include font-size(40px);
+        @include font-size(25px);
+    }
+
+    @media(min-width: $screen-md) {
+        span {
+            @include font-size(40px);
+        }
     }
 }
 
 .main-slider__text {
     color: $primary;
+    font-family: $font-family-logo;
+}
+
+.main-slider__text--center {
+    @media(min-width: $screen-md) {
+        margin-left: 8px;
+    }
 }
