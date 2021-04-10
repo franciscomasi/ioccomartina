@@ -26,7 +26,7 @@ function MobileMenu({ closeMenu }) {
         className="header__menu-link"
         onClick={closeMenu}
       >
-        Asesoramientos
+        Servicios
       </a>
       <Link
         to={ROUTES.APP_URL_JOBS}
