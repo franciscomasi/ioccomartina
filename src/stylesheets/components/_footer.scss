@@ -63,7 +63,6 @@
 .footer__resume-jobs {
     display: flex;
     flex-direction: column;
-    
 
     @media(min-width: $screen-md) {
         margin-right: 4rem;
@@ -82,11 +81,23 @@
     }
 }
 
+.footer__email-link {
+    @include font-size(16px);
+
+    display: flex;
+    flex-direction: row;
+    color: $white;
+}
+
 .footer__resume-link {
     @include font-size(16px);
 
     margin-bottom: 0.5rem;
     color: $white;
+
+    &:hover {
+        color: $primary;
+    }
 
     @media(min-width: $screen-md) {
         margin-bottom: 1rem;
